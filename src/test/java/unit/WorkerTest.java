@@ -1,6 +1,6 @@
 package unit;
 
-import StaffSystem.Worker;
+import staff.Worker;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

@@ -1,13 +1,18 @@
 package unit;
 
-import Exceptions.*;
-import FileManagement.*;
-import StaffSystem.Staff;
-import StaffSystem.Worker;
+import exceptions.*;
+import staff.Staff;
+import staff.Worker;
+import files.DataFile;
+import files.JsonDataFile;
+import files.TxtDataFile;
+import files.XmlDataFile;
 import org.junit.*;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.*;
 
 import static org.junit.Assert.*;
@@ -24,15 +29,20 @@ public class StaffTest {
     Scanner jsonReader;
 
 
+    @AfterClass
+    public static void createDB() throws IOException, URISyntaxException {
+        DatabaseInit.startNewDB();
+    }
+
     @Before
-    public void setUp(){
-        staff = initStaff;
+    public void setUp() throws IOException, URISyntaxException {
+        DatabaseInit.startNewDB();
     }
 
     @Test
     public void testHasId() {
-        staff.add("worker");
-        staff.add("second worker");
+        staff.add("worker", "workers", "work");
+        staff.add("secondworker", "secondworkers", "secondwork");
         assertTrue(staff.hasId(1));
         assertTrue(staff.hasId(2));
         assertFalse(staff.hasId(-1));
@@ -40,10 +50,10 @@ public class StaffTest {
 
     @Test
     public void testAdd() {
-        int id = staff.add("worker");
+        int id = staff.add("worker", "workers", "work");
 
         int expectedId = 1;
-        String expectedName = "worker";
+        String expectedName = "work worker workers";
         Worker expectedWorker = new Worker(expectedId, expectedName);
 
         assertEquals(expectedId, id); //Проверка возвращаемого значения метода.
@@ -60,8 +70,8 @@ public class StaffTest {
 
     @Test
     public void testRemove() {
-        int idForRemove = staff.add("worker");
-        int id = staff.add("second worker");
+        int idForRemove = staff.add("worker", "workers", "work");
+        int id = staff.add("secondworker", "secondworkers", "work");
 
         staff.remove(idForRemove);
 
@@ -76,10 +86,10 @@ public class StaffTest {
 
     @Test
     public void testGetWorker() {
-        Worker expectedWorker = new Worker(2, "worker"); //Имитация объекта который войдет в Staff.
-        staff.add("first worker");
-        int id = staff.add("worker");
-        staff.add("second test");
+        Worker expectedWorker = new Worker(2, "worker workers work"); //Имитация объекта который войдет в Staff.
+        staff.add("firstworker", "workers", "work");
+        int id = staff.add("workers", "work", "worker");
+        staff.add("test", "test", "test");
         Worker worker = staff.getWorker(id);
         assertEquals(expectedWorker, worker);
         assertEquals(expectedWorker.getName(), worker.getName());
@@ -89,10 +99,12 @@ public class StaffTest {
     public void getAllWorker() {
         Set<Worker> expectedSet = new LinkedHashSet<Worker>();
         assertEquals(expectedSet,  staff.getAllWorker());
-        Worker[] expectedWorkers = new Worker[]{new Worker(1, "first worker"), new Worker(2, "second worker")};
-        staff.add("first worker");
-        staff.add("second worker");
+        Worker[] expectedWorkers = new Worker[]{new Worker(1, "firstworker fworkers fwork"),
+                new Worker(2, "secondworker sworkers swork")};
+        staff.add("fworkers", "fwork", "firstworker");
+        staff.add("sworkers", "swork", "secondworker");
         assertArrayEquals(staff.getAllWorker().toArray(), expectedWorkers);
+
     }
 
     @Test
@@ -104,9 +116,9 @@ public class StaffTest {
         String txtSamplePath = System.getProperty("user.dir") + "/src/test/resources/TestStaff/Txt/sampleSave.txt";
         String xmlSamplePath = System.getProperty("user.dir") + "/src/test/resources/TestStaff/Xml/sampleSave.xml";
         String jsonSamplePath = System.getProperty("user.dir") + "/src/test/resources/TestStaff/Json/sampleSave.json";
-        staff.add("Бирюков Дмитрий Михайлович");
-        staff.add("Строеньев Степан Дмитриевич");
-        staff.add("Глазов Александр Андреевич");
+        staff.add("Дмитрий" , "Михайлович","Бирюков");
+        staff.add("Степан","Дмитриевич","Строеньев");
+        staff.add("Александр", "Андреевич", "Глазов");
 
         try {
             staff.save(txtPath, new TxtDataFile());
@@ -172,7 +184,6 @@ public class StaffTest {
                 assertEquals(staff.getWorker(firstWorker.getId()), firstWorker);
                 assertEquals(staff.getWorker(secondWorker.getId()), secondWorker);
                 assertEquals(staff.getWorker(thirdWorker.getId()), thirdWorker);
-                staff = initStaff;
             }
         } catch (FileException e) {
             fail();

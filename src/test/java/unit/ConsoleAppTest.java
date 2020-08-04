@@ -1,14 +1,13 @@
 package unit;
 
-import StaffSystem.ConsoleApp;
+import org.junit.AfterClass;
+import staff.ConsoleApp;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.PrintStream;
+import java.io.*;
+import java.net.URISyntaxException;
 import java.util.Scanner;
 
 import static org.junit.Assert.*;
@@ -34,6 +33,12 @@ public class ConsoleAppTest {
 
     @Before
     public void setUp() throws Exception {
+        DatabaseInit.startNewDB();
+    }
+
+    @AfterClass
+    public static void createDB() throws IOException, URISyntaxException {
+        DatabaseInit.startNewDB();
     }
 
     @After

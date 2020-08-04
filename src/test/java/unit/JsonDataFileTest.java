@@ -1,9 +1,9 @@
 package unit;
 
-import Exceptions.FileException;
-import Exceptions.FileSaveException;
-import FileManagement.JsonDataFile;
-import StaffSystem.Worker;
+import exceptions.FileException;
+import exceptions.FileSaveException;
+import files.JsonDataFile;
+import staff.Worker;
 import org.junit.After;
 import org.junit.Test;
 

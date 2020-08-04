@@ -1,9 +1,9 @@
 package unit;
 
-import Exceptions.FileException;
-import Exceptions.FileSaveException;
-import FileManagement.XmlDataFile;
-import StaffSystem.Worker;
+import exceptions.FileException;
+import exceptions.FileSaveException;
+import files.XmlDataFile;
+import staff.Worker;
 import org.junit.After;
 import org.junit.Test;
 

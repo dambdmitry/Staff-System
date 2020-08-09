@@ -1,5 +1,6 @@
 package staff;
 
+import exceptions.DatabaseException;
 import exceptions.FileException;
 import files.DataFile;
 import files.JsonDataFile;
@@ -69,6 +70,11 @@ public class ConsoleApp {
                     outputStream.println("Не верно введена команда");
                     break;
             }
+        }
+        try {
+            staff.closeDatabase();
+        } catch (DatabaseException e) {
+            System.out.println(e.getMessage());
         }
     }
 

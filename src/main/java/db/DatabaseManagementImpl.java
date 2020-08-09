@@ -22,21 +22,41 @@ public class DatabaseManagementImpl implements DatabaseManagement{
     private static final String GET_ALL_WORKERS = "SELECT * FROM worker;";
     private static final String REMOVE_WORKER_BY_ID = "DELETE FROM worker WHERE worker_id = ?;";
 
+    private Connection connection = null;
+
 
     private Connection getConnection() throws SQLException{
-        Connection connection = DriverManager.getConnection(
-                Config.getProperty(Config.DB_URL),
-                Config.getProperty(Config.DB_LOGIN),
-                Config.getProperty(Config.DB_PASSWORD)
-        );
+        if(connection == null) {
+            connection = DriverManager.getConnection(
+                    Config.getProperty(Config.DB_URL),
+                    Config.getProperty(Config.DB_LOGIN),
+                    Config.getProperty(Config.DB_PASSWORD));
+        }
         return connection;
+    }
+
+    public void closeConnection() throws SQLException {
+        if(!connection.isClosed()){
+            connection.close();
+        }
+    }
+
+    private void closeStatment(PreparedStatement stmt){
+        try {
+            if(!stmt.isClosed() && stmt != null){
+                stmt.close();
+            }
+        } catch (SQLException throwables) {
+        }
     }
 
     @Override
     public int addWorker(String name, String patronymic, String lastName) {
         int generatedId = -1;
-        try(Connection connection = getConnection();
-            PreparedStatement statement = connection.prepareStatement(INSERT_WORKER, new String[]{"worker_id"})) {
+        PreparedStatement statement = null;
+        try{
+            Connection connection = getConnection();
+            statement = connection.prepareStatement(INSERT_WORKER, new String[]{"worker_id"});
 
             statement.setString(1, name);
             statement.setString(2, patronymic);
@@ -51,6 +71,8 @@ public class DatabaseManagementImpl implements DatabaseManagement{
 
         } catch (SQLException throwables) {
             throwables.printStackTrace();
+        } finally {
+            closeStatment(statement);
         }
         return generatedId;
     }
@@ -60,8 +82,10 @@ public class DatabaseManagementImpl implements DatabaseManagement{
         if(hasId(id)){
             throw new DatabaseException("Работник с таким номером уже есть");
         }
-        try(Connection connection = getConnection();
-            PreparedStatement statement = connection.prepareStatement(SELF_INSERT_WORKER)) {
+        PreparedStatement statement = null;
+        try {
+            Connection connection = getConnection();
+            statement = connection.prepareStatement(SELF_INSERT_WORKER);
 
             statement.setInt(1, id);
             statement.setString(2, name);
@@ -71,13 +95,17 @@ public class DatabaseManagementImpl implements DatabaseManagement{
             statement.executeUpdate();
         } catch (SQLException throwables) {
             throw new RuntimeException(throwables);
+        } finally {
+            closeStatment(statement);
         }
     }
 
     @Override
     public Worker getWorker(int id) {
-        try(Connection connection = getConnection();
-            PreparedStatement statement = connection.prepareStatement(GET_WORKER_BY_ID)) {
+        PreparedStatement statement = null;
+        try {
+            Connection connection = getConnection();
+            statement = connection.prepareStatement(GET_WORKER_BY_ID);
 
             statement.setInt(1, id);
             ResultSet rs = statement.executeQuery();
@@ -92,14 +120,18 @@ public class DatabaseManagementImpl implements DatabaseManagement{
             }
         } catch (SQLException throwables) {
             throw new RuntimeException(throwables);
+        } finally {
+            closeStatment(statement);
         }
     }
 
     @Override
     public Set<Worker> getAllWorkers() {
         Set<Worker> workers = new LinkedHashSet<>();
-        try(Connection connection = getConnection();
-            PreparedStatement statement = connection.prepareStatement(GET_ALL_WORKERS)) {
+        PreparedStatement statement = null;
+        try{
+            Connection connection = getConnection();
+            statement = connection.prepareStatement(GET_ALL_WORKERS);
 
             ResultSet rs = statement.executeQuery();
             while (rs.next()){
@@ -111,14 +143,18 @@ public class DatabaseManagementImpl implements DatabaseManagement{
             }
         } catch (SQLException throwables) {
             throw new RuntimeException(throwables);
+        } finally {
+            closeStatment(statement);
         }
         return workers;
     }
 
     @Override
     public void removeWorker(int id) {
-        try(Connection connection = getConnection();
-            PreparedStatement statement = connection.prepareStatement(REMOVE_WORKER_BY_ID)) {
+        PreparedStatement statement = null;
+        try {
+            Connection connection = getConnection();
+            statement = connection.prepareStatement(REMOVE_WORKER_BY_ID);
 
             statement.setInt(1, id);
             int successfulRemove = statement.executeUpdate();
@@ -127,13 +163,17 @@ public class DatabaseManagementImpl implements DatabaseManagement{
             }
         } catch (SQLException throwables) {
             throw new RuntimeException(throwables);
+        } finally {
+            closeStatment(statement);
         }
     }
 
     @Override
     public boolean hasId(int id) {
-        try(Connection connection = getConnection();
-            PreparedStatement statement = connection.prepareStatement(GET_WORKER_BY_ID)) {
+        PreparedStatement statement = null;
+        try {
+            Connection connection = getConnection();
+            statement = connection.prepareStatement(GET_WORKER_BY_ID);
 
             statement.setInt(1, id);
 
@@ -141,6 +181,8 @@ public class DatabaseManagementImpl implements DatabaseManagement{
             return rs.next();
         } catch (SQLException throwables) {
             throw new RuntimeException(throwables);
+        } finally {
+            closeStatment(statement);
         }
     }
 }

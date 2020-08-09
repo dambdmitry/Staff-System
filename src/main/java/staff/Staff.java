@@ -5,6 +5,7 @@ import db.DatabaseManagementImpl;
 import exceptions.*;
 import files.DataFile;
 
+import java.sql.SQLException;
 import java.util.*;
 
 public class Staff {
@@ -15,6 +16,14 @@ public class Staff {
         return db.hasId(id);
     }
 
+
+    public void closeDatabase() throws DatabaseException {
+        try {
+            db.closeConnection();
+        } catch (SQLException throwables) {
+            throw new DatabaseException("Ошибка закрытия подключения к базе данных");
+        }
+    }
 
     //Добавить сотрудника в состав.
     public int add(String name, String patronymic, String lastname){

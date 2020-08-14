@@ -13,6 +13,6 @@ public interface DatabaseManagement {
     Set<Worker> getAllWorkers();
     void removeWorker(int id);
     boolean hasId(int id);
-    void closeConnection() throws SQLException;
+    void closeConnection();
 
 }

@@ -12,17 +12,13 @@ public class Staff {
     private DatabaseManagement db = new DatabaseManagementImpl();
 
     //Имеется ли такой номер id в базе.
-    public boolean hasId(int id){
+    public boolean hasId(int id) {
         return db.hasId(id);
     }
 
 
-    public void closeDatabase() throws DatabaseException {
-        try {
-            db.closeConnection();
-        } catch (SQLException throwables) {
-            throw new DatabaseException("Ошибка закрытия подключения к базе данных");
-        }
+    public void closeDatabase(){
+        db.closeConnection();
     }
 
     //Добавить сотрудника в состав.

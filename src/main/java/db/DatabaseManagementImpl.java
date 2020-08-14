@@ -35,15 +35,19 @@ public class DatabaseManagementImpl implements DatabaseManagement{
         return connection;
     }
 
-    public void closeConnection() throws SQLException {
-        if(!connection.isClosed()){
-            connection.close();
+    public void closeConnection() {
+        try {
+            if(connection != null && !connection.isClosed()){
+                connection.close();
+            }
+        } catch (SQLException throwables) {
+            throw new RuntimeException(throwables);
         }
     }
 
     private void closeStatment(PreparedStatement stmt){
         try {
-            if(!stmt.isClosed() && stmt != null){
+            if(stmt != null && !stmt.isClosed()){
                 stmt.close();
             }
         } catch (SQLException throwables) {
@@ -70,7 +74,8 @@ public class DatabaseManagementImpl implements DatabaseManagement{
             }
 
         } catch (SQLException throwables) {
-            throwables.printStackTrace();
+            closeConnection();
+            throw new RuntimeException(throwables);
         } finally {
             closeStatment(statement);
         }
@@ -78,7 +83,7 @@ public class DatabaseManagementImpl implements DatabaseManagement{
     }
 
     @Override
-    public void addWorkerYourself(int id, String name, String patronymic, String lastName) throws DatabaseException {
+    public void addWorkerYourself(int id, String name, String patronymic, String lastName) throws DatabaseException{
         if(hasId(id)){
             throw new DatabaseException("Работник с таким номером уже есть");
         }
@@ -94,6 +99,7 @@ public class DatabaseManagementImpl implements DatabaseManagement{
 
             statement.executeUpdate();
         } catch (SQLException throwables) {
+            closeConnection();
             throw new RuntimeException(throwables);
         } finally {
             closeStatment(statement);
@@ -119,6 +125,7 @@ public class DatabaseManagementImpl implements DatabaseManagement{
                 throw new NotFoundWorkerException("Работника с таким номером нет");
             }
         } catch (SQLException throwables) {
+            closeConnection();
             throw new RuntimeException(throwables);
         } finally {
             closeStatment(statement);
@@ -142,6 +149,7 @@ public class DatabaseManagementImpl implements DatabaseManagement{
                 workers.add(worker);
             }
         } catch (SQLException throwables) {
+            closeConnection();
             throw new RuntimeException(throwables);
         } finally {
             closeStatment(statement);
@@ -162,6 +170,7 @@ public class DatabaseManagementImpl implements DatabaseManagement{
                 throw new NotFoundWorkerException("Сотрудника с таким номером нет");
             }
         } catch (SQLException throwables) {
+            closeConnection();
             throw new RuntimeException(throwables);
         } finally {
             closeStatment(statement);
@@ -180,6 +189,7 @@ public class DatabaseManagementImpl implements DatabaseManagement{
             ResultSet rs = statement.executeQuery();
             return rs.next();
         } catch (SQLException throwables) {
+            closeConnection();
             throw new RuntimeException(throwables);
         } finally {
             closeStatment(statement);

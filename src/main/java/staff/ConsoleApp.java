@@ -71,11 +71,7 @@ public class ConsoleApp {
                     break;
             }
         }
-        try {
-            staff.closeDatabase();
-        } catch (DatabaseException e) {
-            System.out.println(e.getMessage());
-        }
+        staff.closeDatabase();
     }
 
     

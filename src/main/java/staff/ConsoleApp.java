@@ -122,7 +122,7 @@ public class ConsoleApp {
     private void printAll(){
         Set<Worker> allWorker = staff.getAllWorker();
         for(Worker worker: allWorker){
-            outputStream.println(worker.toString());
+            outputStream.println(worker);
         }
     }
 
@@ -130,7 +130,7 @@ public class ConsoleApp {
     private void print(int id){
         if(staff.hasId(id)){
             Worker worker = staff.getWorker(id);
-            outputStream.println(worker.toString());
+            outputStream.println(worker);
         }else{
             outputStream.println("Сотрудника с таким номером нет");
         }
@@ -160,15 +160,17 @@ public class ConsoleApp {
     private void save(String[] args){
         String path = "";
         DataFile file = getDataFileByFormat(args[args.length - 1]);
+        StringBuilder sbPath = new StringBuilder();
 
         //Если расширение не задано, то по умолчанию сохраняем в txt
         if(file == null){
             if(args.length > 1){
                 for(int i = 1; i <= args.length - 1; i++){
-                    path += " " + args[i];
+                    sbPath.append(" ").append(args[i]);
+                    //path += " " + args[i];
                 }
                 try {
-                    path = path.trim();
+                    path = sbPath.toString().trim();
                     staff.save(path, new TxtDataFile());
                     outputStream.println("Данные успешно сохранены в файл");
                 } catch (FileException e) {
@@ -180,10 +182,11 @@ public class ConsoleApp {
         }else{
             if(args.length > 2){
                 for(int i = 1; i <= args.length - 2; i++){
-                    path += " " + args[i];
+                    sbPath.append(" ").append(args[i]);
+                    //path += " " + args[i];
                 }
                 try {
-                    path = path.trim();
+                    path = sbPath.toString().trim();
                     staff.save(path, file);
                     outputStream.println("Данные успешно сохранены в файл");
                 } catch (FileException e) {
@@ -197,14 +200,15 @@ public class ConsoleApp {
     private void load(String[] args){
         DataFile file = getDataFileByFormat(args[args.length - 1]);
         String path = "";
-
+        StringBuilder sbPath = new StringBuilder();
         if(file == null){
             if(args.length > 1){
                 for(int i = 1; i <= args.length - 1; i++){
-                    path += " " + args[i];
+                    sbPath.append(" ").append(args[i]);
+                    //path += " " + args[i];
                 }
                 try {
-                    path = path.trim();
+                    path = sbPath.toString().trim();
                     staff.load(path, new TxtDataFile());
                     outputStream.println("Данные успешно загружены из файла");
                 } catch (FileException e) {
@@ -216,10 +220,11 @@ public class ConsoleApp {
         }else{
             if(args.length > 2){
                 for(int i = 1; i <= args.length - 2; i++){
-                    path += " " + args[i];
+                    sbPath.append(" ").append(args[i]);
+                    //path += " " + args[i];
                 }
                 try {
-                    path = path.trim();
+                    path = sbPath.toString().trim();;
                     staff.load(path, file);
                     outputStream.println("Данные успешно загружены");
                 } catch (FileException e) {

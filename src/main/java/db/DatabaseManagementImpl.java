@@ -109,6 +109,7 @@ public class DatabaseManagementImpl implements DatabaseManagement{
     @Override
     public Worker getWorker(int id) {
         PreparedStatement statement = null;
+        StringBuilder sbWorkerFullName = new StringBuilder();
         try {
             Connection connection = getConnection();
             statement = connection.prepareStatement(GET_WORKER_BY_ID);
@@ -116,10 +117,11 @@ public class DatabaseManagementImpl implements DatabaseManagement{
             statement.setInt(1, id);
             ResultSet rs = statement.executeQuery();
             if(rs.next()){
-                Worker worker = new Worker(rs.getInt("worker_id"),
-                          rs.getString("worker_lastname") + " " +
-                                rs.getString("worker_name") + " " +
-                                rs.getString("worker_patronymic"));
+                sbWorkerFullName.append(rs.getString("worker_lastname")).append(" ")
+                        .append(rs.getString("worker_name")).append(" ")
+                        .append(rs.getString("worker_patronymic"));
+
+                Worker worker = new Worker(rs.getInt("worker_id"), sbWorkerFullName.toString());
                 return worker;
             }else{
                 throw new NotFoundWorkerException("Работника с таким номером нет");
@@ -142,10 +144,13 @@ public class DatabaseManagementImpl implements DatabaseManagement{
 
             ResultSet rs = statement.executeQuery();
             while (rs.next()){
-                Worker worker = new Worker(rs.getInt("worker_id"),
-                          rs.getString("worker_lastname") + " " +
-                                rs.getString("worker_name") + " " +
-                                rs.getString("worker_patronymic"));
+                StringBuilder sbWorkerFullName = new StringBuilder();
+
+                sbWorkerFullName.append(rs.getString("worker_lastname")).append(" ")
+                        .append(rs.getString("worker_name")).append(" ")
+                        .append(rs.getString("worker_patronymic"));
+
+                Worker worker = new Worker(rs.getInt("worker_id"), sbWorkerFullName.toString());
                 workers.add(worker);
             }
         } catch (SQLException throwables) {

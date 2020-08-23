@@ -18,10 +18,10 @@ public class PrintAllController {
     }
 
     private String getHtmlCodeOfAllWorkers(){
-        String code = "";
+        StringBuilder sb = new StringBuilder();
         for(Worker worker: staff.getAllWorker()){
-            code += worker + "<br>";
+            sb.append(worker).append("<br>");
         }
-        return code;
+        return sb.toString();
     }
 }

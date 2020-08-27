@@ -1,12 +1,12 @@
 package unit;
 
-import exceptions.*;
-import staff.Staff;
-import staff.Worker;
-import files.DataFile;
-import files.JsonDataFile;
-import files.TxtDataFile;
-import files.XmlDataFile;
+import org.internship.system.exceptions.*;
+import org.internship.system.staff.Staff;
+import org.internship.system.staff.Worker;
+import org.internship.system.files.DataFile;
+import org.internship.system.files.JsonDataFile;
+import org.internship.system.files.TxtDataFile;
+import org.internship.system.files.XmlDataFile;
 import org.junit.*;
 
 import java.io.File;
@@ -53,11 +53,13 @@ public class StaffTest {
         int id = staff.add("worker", "workers", "work");
 
         int expectedId = 1;
-        String expectedName = "work worker workers";
-        Worker expectedWorker = new Worker(expectedId, expectedName);
+        String expectedLastName = "worker";
+        String expectedFirstName = "workers";
+        String expectedPatronymic = "work";
+        Worker expectedWorker = new Worker(expectedId, expectedLastName, expectedFirstName, expectedPatronymic);
 
         assertEquals(expectedId, id); //Проверка возвращаемого значения метода.
-        assertEquals(expectedWorker, staff.getWorker(expectedId)); //Проверка того, что ожидаемый работник добавился в staff.
+        assertEquals(expectedWorker, staff.getWorker(expectedId)); //Проверка того, что ожидаемый работник добавился в org.internship.system.staff.
         assertTrue(staff.hasId(expectedId));
     }
 
@@ -86,23 +88,23 @@ public class StaffTest {
 
     @Test
     public void testGetWorker() {
-        Worker expectedWorker = new Worker(2, "worker workers work"); //Имитация объекта который войдет в Staff.
+        Worker expectedWorker = new Worker(2, "worker", "workers", "work"); //Имитация объекта который войдет в Staff.
         staff.add("firstworker", "workers", "work");
-        int id = staff.add("workers", "work", "worker");
+        int id = staff.add("worker", "workers", "work");
         staff.add("test", "test", "test");
         Worker worker = staff.getWorker(id);
         assertEquals(expectedWorker, worker);
-        assertEquals(expectedWorker.getName(), worker.getName());
+        assertEquals(expectedWorker.toString(), worker.toString());
     }
 
     @Test
     public void getAllWorker() {
         Set<Worker> expectedSet = new LinkedHashSet<Worker>();
         assertEquals(expectedSet,  staff.getAllWorker());
-        Worker[] expectedWorkers = new Worker[]{new Worker(1, "firstworker fworkers fwork"),
-                new Worker(2, "secondworker sworkers swork")};
-        staff.add("fworkers", "fwork", "firstworker");
-        staff.add("sworkers", "swork", "secondworker");
+        Worker[] expectedWorkers = new Worker[]{new Worker(1, "firstworker", "fworkers", "fwork"),
+                new Worker(2, "secondworker", "sworkers", "swork")};
+        staff.add("firstworker", "fworkers", "fwork");
+        staff.add("secondworker", "sworkers", "swork");
         assertArrayEquals(staff.getAllWorker().toArray(), expectedWorkers);
 
     }
@@ -116,9 +118,9 @@ public class StaffTest {
         String txtSamplePath = System.getProperty("user.dir") + "/src/test/resources/TestStaff/Txt/sampleSave.txt";
         String xmlSamplePath = System.getProperty("user.dir") + "/src/test/resources/TestStaff/Xml/sampleSave.xml";
         String jsonSamplePath = System.getProperty("user.dir") + "/src/test/resources/TestStaff/Json/sampleSave.json";
-        staff.add("Дмитрий" , "Михайлович","Бирюков");
-        staff.add("Степан","Дмитриевич","Строеньев");
-        staff.add("Александр", "Андреевич", "Глазов");
+        staff.add("Бирюков" , "Дмитрий","Михайлович");
+        staff.add("Строеньев","Степан","Дмитриевич");
+        staff.add("Глазов", "Александр", "Андреевич");
 
         try {
             staff.save(txtPath, new TxtDataFile());
@@ -170,9 +172,9 @@ public class StaffTest {
         String xmlPath = System.getProperty("user.dir") + "/src/test/resources/TestStaff/Xml/load.xml";
         String jsonPath = System.getProperty("user.dir") + "/src/test/resources/TestStaff/Json/load.json";
 
-        Worker firstWorker = new Worker(1, "Бирюков Дмитрий Михайлович");
-        Worker secondWorker = new Worker(2, "Строеньев Степан Дмитриевич");
-        Worker thirdWorker = new Worker(3, "Глазов Александр Андреевич");
+        Worker firstWorker = new Worker(1, "Бирюков", "Дмитрий", "Михайлович");
+        Worker secondWorker = new Worker(2, "Строеньев", "Степан", "Дмитриевич");
+        Worker thirdWorker = new Worker(3, "Глазов", "Александр", "Андреевич");
 
         try {
             DataFile[] dataFiles = new DataFile[]{new TxtDataFile(), new XmlDataFile(), new JsonDataFile()};

@@ -1,9 +1,9 @@
 package unit;
 
-import exceptions.FileException;
-import exceptions.FileSaveException;
-import files.XmlDataFile;
-import staff.Worker;
+import org.internship.system.exceptions.FileException;
+import org.internship.system.exceptions.FileSaveException;
+import org.internship.system.files.XmlDataFile;
+import org.internship.system.staff.Worker;
 import org.junit.After;
 import org.junit.Test;
 
@@ -34,9 +34,9 @@ public class XmlDataFileTest {
     public void saveToFile() {
         Set<Worker> workers = new LinkedHashSet<>();
 
-        workers.add(new Worker(1, "Шилова Галина Николаевна"));
-        workers.add(new Worker(2, "Задворная Ольга Николаевна"));
-        workers.add(new Worker(3, "Пучков Данил Евгеньевич"));
+        workers.add(new Worker(1, "Шилова", "Галина", "Николаевна"));
+        workers.add(new Worker(2, "Задворная", "Ольга", "Николаевна"));
+        workers.add(new Worker(3, "Пучков", "Данил", "Евгеньевич"));
 
         try{
             file.saveToFile(path + testFileName, workers);
@@ -58,9 +58,9 @@ public class XmlDataFileTest {
 
     @Test
     public void loadFormFile() {
-        Worker[] expectedWorkers = new Worker[]{new Worker(1, "Строеньев Степан Дмитриевич"),
-                new Worker(2, "Глазов Александр Михайлович"),
-                new Worker(3, "Озеров Дмитрий Андреевич")};
+        Worker[] expectedWorkers = new Worker[]{new Worker(1, "Строеньев", "Степан", "Дмитриевич"),
+                new Worker(2, "Глазов", "Александр", "Михайлович"),
+                new Worker(3, "Озеров", "Дмитрий", "Андреевич")};
         try {
             Set<Worker> workers = file.loadFormFile(path + "/fileToLoad.xml");
             assertArrayEquals(expectedWorkers, workers.toArray());

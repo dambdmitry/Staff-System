@@ -1,26 +1,28 @@
 package unit;
 
-import staff.Worker;
+import org.internship.system.staff.Worker;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class WorkerTest {
     int id = 1;
-    String name = "worker";
-    Worker worker = new Worker(id, name);
+    String lastName = "worker1";
+    String firstName = "worker2";
+    String patronymic = "worker3";
+    Worker worker = new Worker(id, lastName, firstName, patronymic);
 
 
     @Test
     public void testToString() {
-        String expectedString = id + " " + name;
+        String expectedString = id + " " + lastName + " " + firstName + " " + patronymic;
         assertEquals(expectedString, worker.toString());
     }
 
     @Test
     public void testEquals() {
-        Worker trueWorker = new Worker(id, name);
-        Worker falseWorker = new Worker(-1, "");
+        Worker trueWorker = new Worker(id, lastName, firstName, patronymic);
+        Worker falseWorker = new Worker(-1, "1", "2", "3");
         assertEquals(worker, trueWorker);
         assertNotEquals(worker, falseWorker);
         assertNotEquals(worker, null);
@@ -28,10 +30,9 @@ public class WorkerTest {
 
     @Test
     public void testHashCode(){
-        Worker trueWorker = new Worker(id, name);
-        Worker falseWorker = new Worker(-1, "");
+        Worker trueWorker = new Worker(id, lastName, firstName, patronymic);
+        Worker falseWorker = new Worker(-1, "1", "2", "3");
         assertEquals(trueWorker.hashCode(), worker.hashCode());
         assertNotEquals(worker.hashCode(), falseWorker.hashCode());
     }
-
 }

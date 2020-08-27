@@ -1,7 +1,7 @@
 package unit;
 
 import org.junit.AfterClass;
-import staff.ConsoleApp;
+import org.internship.system.staff.ConsoleApp;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

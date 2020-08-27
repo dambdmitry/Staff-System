@@ -1,9 +1,9 @@
 package unit;
 
-import exceptions.FileException;
-import exceptions.FileSaveException;
-import files.JsonDataFile;
-import staff.Worker;
+import org.internship.system.exceptions.FileException;
+import org.internship.system.exceptions.FileSaveException;
+import org.internship.system.files.JsonDataFile;
+import org.internship.system.staff.Worker;
 import org.junit.After;
 import org.junit.Test;
 
@@ -32,9 +32,9 @@ public class JsonDataFileTest {
     public void saveToFile() {
         Set<Worker> workers = new LinkedHashSet<>();
 
-        workers.add(new Worker(1, "Бирюков Дмитрий Михайлович"));
-        workers.add(new Worker(2, "Рыжов Игорь Дмитриевич"));
-        workers.add(new Worker(3, "Селяков Николай Викторович"));
+        workers.add(new Worker(1, "Бирюков",  "Дмитрий", "Михайлович"));
+        workers.add(new Worker(2, "Рыжов", "Игорь", "Дмитриевич"));
+        workers.add(new Worker(3, "Селяков", "Николай", "Викторович"));
 
         try{
             file.saveToFile(path + testFileName, workers);
@@ -56,9 +56,9 @@ public class JsonDataFileTest {
 
     @Test
     public void loadFormFile() {
-        Worker[] expectedWorkers = new Worker[]{new Worker(1, "Строеньев Степан Дмитриевич"),
-                new Worker(2, "Глазов Александр Михайлович"),
-                new Worker(3, "Озеров Дмитрий Андреевич")};
+        Worker[] expectedWorkers = new Worker[]{new Worker(1, "Строеньев", "Степан", "Дмитриевич"),
+                new Worker(2, "Глазов", "Александр", "Михайлович"),
+                new Worker(3, "Озеров", "Дмитрий", "Андреевич")};
         try {
             Set<Worker> workers = file.loadFormFile(path + "/fileToLoad.json");
             assertArrayEquals(expectedWorkers, workers.toArray());

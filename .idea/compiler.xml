@@ -13,5 +13,8 @@
   </component>
   <component name="JavacSettings">
     <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="StaffSystemMaven" options="-parameters" />
+    </option>
   </component>
 </project>

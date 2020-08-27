@@ -1,6 +1,6 @@
 package unit;
 
-import db.config.Config;
+import org.internship.system.db.config.Config;
 
 import java.io.IOException;
 import java.net.URISyntaxException;

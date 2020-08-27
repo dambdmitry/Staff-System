@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Выбрать сотрудника</title>
+</head>
+<body>
+    <form action="#" th:action="@{/print}" th:object="${worker}" method="post">
+        <label for="id">Введите Id сотрудника</label>
+        <input type="text" th:field="*{id}" id="id" placeholder="ID Сотрудника"><br>
+        <input type="submit" value="Выбрать сотрудника">
+    </form>
+    <br>
+    <p><a href="/">Команды</a></p>
+</body>
+</html>

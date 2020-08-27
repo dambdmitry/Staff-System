@@ -1,9 +1,9 @@
 package unit;
 
-import exceptions.FileException;
-import exceptions.FileSaveException;
-import files.TxtDataFile;
-import staff.Worker;
+import org.internship.system.exceptions.FileException;
+import org.internship.system.exceptions.FileSaveException;
+import org.internship.system.files.TxtDataFile;
+import org.internship.system.staff.Worker;
 import org.junit.After;
 import org.junit.Test;
 
@@ -32,9 +32,9 @@ public class TxtDataFileTest {
     public void saveToFile() {
         Set<Worker> workers = new LinkedHashSet<>();
 
-        workers.add(new Worker(1, "Яблоков Анатолий Анатольевич"));
-        workers.add(new Worker(2, "Сямжина Елена Алексеевна"));
-        workers.add(new Worker(3, "Михайлов Даниил Александрович"));
+        workers.add(new Worker(1, "Яблоков", "Анатолий", "Анатольевич"));
+        workers.add(new Worker(2, "Сямжина", "Елена", "Алексеевна"));
+        workers.add(new Worker(3, "Михайлов", "Даниил", "Александрович"));
 
         try{
             file.saveToFile(path + testFileName, workers);
@@ -56,9 +56,9 @@ public class TxtDataFileTest {
 
     @Test
     public void loadFormFile() {
-        Worker[] expectedWorkers = new Worker[]{new Worker(1, "Рыжов Игорь Дмитриевич"),
-                new Worker(2, "Мкртычян Арман Агасиевич"),
-                new Worker(3, "Бирюков Дмитрий Михайлович")};
+        Worker[] expectedWorkers = new Worker[]{new Worker(1, "Рыжов", "Игорь", "Дмитриевич"),
+                new Worker(2, "Мкртычян", "Арман", "Агасиевич"),
+                new Worker(3, "Бирюков", "Дмитрий", "Михайлович")};
         try {
             Set<Worker> workers = file.loadFormFile(path + "/fileToLoad.txt");
             assertArrayEquals(expectedWorkers, workers.toArray());

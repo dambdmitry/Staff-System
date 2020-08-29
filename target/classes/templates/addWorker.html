@@ -5,7 +5,7 @@
     <title>Добавление сотрудника</title>
 </head>
 <body>
-    <h1 th:text="${error}"></h1>
+    <h1 style="color:#FF0000" th:text="${error}"></h1>
     <form action="#" th:action="@{/addWorker}" th:object="${worker}" method="post">
         <label for="lastName"></label>
         <input type="text" th:field="*{lastName}" id="lastName" placeholder="Фамилия"><br>

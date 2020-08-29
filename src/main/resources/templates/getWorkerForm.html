@@ -5,12 +5,11 @@
     <title>Выбрать сотрудника</title>
 </head>
 <body>
-    <form action="#" th:action="@{/print}" th:object="${worker}" method="post">
+    <h1 style="color:#FF0000" th:text="${error}"></h1>
+    <form method="post">
         <label for="id">Введите Id сотрудника</label>
-        <input type="text" th:field="*{id}" id="id" placeholder="ID Сотрудника"><br>
-        <input type="submit" value="Выбрать сотрудника">
+        <input type="number" name="stringId" id="id" placeholder="Id">
+        <input type="submit" value="Найти сотрудника">
     </form>
-    <br>
-    <p><a href="/">Команды</a></p>
 </body>
 </html>

@@ -10,6 +10,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.jws.WebParam;
 import java.util.LinkedHashSet;
@@ -73,20 +74,26 @@ public class StaffController {
     }
 
     @GetMapping("/print")
-    public String getWorkerByIdForm(Worker worker){
+    public String getWorkerByIdForm(){
         return "getWorkerForm";
     }
 
     @PostMapping("/print")
-    public String printWorkerById(Worker worker, Model model){
-        int id = worker.getId();
-        if(staff.hasId(id)){
-            Set<Worker> workers = new LinkedHashSet<>();
-            workers.add(staff.getWorker(id));
-            model.addAttribute("workers", workers);
-            return "printAll";
+    public String printWorkerById(@RequestParam String stringId, Model model){
+        if(!stringId.equals("")){
+            int id = Integer.parseInt(stringId); //В html застроховано, что на вход может зайти только число.
+            if(staff.hasId(id)){
+                Set<Worker> workers = new LinkedHashSet<>();
+                workers.add(staff.getWorker(id));
+                model.addAttribute("workers", workers);
+                return "printAll";
+            }else{
+                return "notFoundWorker";
+            }
         }else{
-            return "notFoundWorker";
+            String err = "Введите id";
+            model.addAttribute("error", err);
+            return "getWorkerForm";
         }
     }
 

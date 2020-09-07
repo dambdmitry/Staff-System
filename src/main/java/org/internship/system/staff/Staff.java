@@ -40,7 +40,11 @@ public class Staff {
 
     //Возвращает объект работник по его id.
     public Worker getWorker(int id){
-        return db.hasId(id) ? db.getWorker(id) : null;
+        if(db.hasId(id)){
+            return db.getWorker(id);
+        }else{
+            throw new NotFoundWorkerException("Работника с таким номером нет");
+        }
     }
 
 

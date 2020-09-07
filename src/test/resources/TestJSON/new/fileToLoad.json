@@ -1,0 +1,22 @@
+{
+  "staff": [
+    {
+      "id": 1,
+      "firstName": "Степан",
+      "lastName": "Строеньев",
+      "patronymic": "Дмитриевич"
+    },
+    {
+      "id": 2,
+      "firstName": "Александр",
+      "lastName": "Глазов",
+      "patronymic": "Михайлович"
+    },
+    {
+      "id": 3,
+      "firstName": "Дмитрий",
+      "lastName": "Озеров",
+      "patronymic": "Андреевич"
+    }
+  ]
+}

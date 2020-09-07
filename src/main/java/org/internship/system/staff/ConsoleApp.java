@@ -29,48 +29,53 @@ public class ConsoleApp {
 
 
     public void consoleRun(){
-        Scanner in = new Scanner(inputStream);
-        String command = "";
-        while(!command.equals("exit")){
-            outputStream.print("Введите команду: ");
-            String[] commandAndArguments = in.nextLine().split(" ");
-            command = commandAndArguments[0];
-            switch (command){
-                case "add":
-                    addWorker(commandAndArguments);
-                    break;
-                case "remove":
-                    removeWorker(commandAndArguments);
-                    break;
-                case "print":
-                    if(commandAndArguments.length == 1){
-                        printAll();
-                    }else if(commandAndArguments.length == 2){
-                        int id;
-                        try{
-                            id = Integer.parseInt(commandAndArguments[1]);
-                            print(id);
-                        }catch (NumberFormatException e){
-                            outputStream.println("Не верный аргумент");
+        try {
+            Scanner in = new Scanner(inputStream);
+            String command = "";
+            while (!command.equals("exit")) {
+                outputStream.print("Введите команду: ");
+                String[] commandAndArguments = in.nextLine().split(" ");
+                command = commandAndArguments[0];
+                switch (command) {
+                    case "add":
+                        addWorker(commandAndArguments);
+                        break;
+                    case "remove":
+                        removeWorker(commandAndArguments);
+                        break;
+                    case "print":
+                        if (commandAndArguments.length == 1) {
+                            printAll();
+                        } else if (commandAndArguments.length == 2) {
+                            int id;
+                            try {
+                                id = Integer.parseInt(commandAndArguments[1]);
+                                print(id);
+                            } catch (NumberFormatException e) {
+                                outputStream.println("Не верный аргумент");
+                            }
+                        } else {
+                            outputStream.println("Не верно введен аргумент");
                         }
-                    }else{
-                        outputStream.println("Не верно введен аргумент");
-                    }
-                    break;
-                case "save":
-                    save(commandAndArguments);
-                    break;
-                case "load":
-                    load(commandAndArguments);
-                    break;
-                case "exit":
-                    break;
-                default:
-                    outputStream.println("Не верно введена команда");
-                    break;
+                        break;
+                    case "save":
+                        save(commandAndArguments);
+                        break;
+                    case "load":
+                        load(commandAndArguments);
+                        break;
+                    case "exit":
+                        break;
+                    default:
+                        outputStream.println("Не верно введена команда");
+                        break;
+                }
             }
+        }catch(Exception e) {
+            System.out.println(e.getMessage());
+        }finally {
+            staff.closeDatabase();
         }
-        staff.closeDatabase();
     }
 
     
@@ -87,7 +92,7 @@ public class ConsoleApp {
             String patronymic = fullName[2];
             String lastname = fullName[0];
 
-            id = staff.add(name, patronymic, lastname);
+            id = staff.add(lastname, name, patronymic);
             outputStream.println(id);
         }else{
             outputStream.println("Не верный аргумент");

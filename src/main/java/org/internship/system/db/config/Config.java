@@ -11,7 +11,7 @@ public class Config {
 
     public static Properties properties = new Properties();
 
-    private static final String dbPropertiesFilePath = "./db/db.properties";
+    private static final String dbPropertiesFilePath = "application.properties";
 
     public static String getProperty(String nameProperty){
         if(properties.isEmpty()){

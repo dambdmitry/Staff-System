@@ -5,11 +5,12 @@
     <title>Удаление сотрудников</title>
 </head>
 <body>
-    <form action="#" th:action="@{/removeWorker}" th:object="${worker}" method="post">
-        <label for="id">Введите Id сотрудника</label>
-        <input type="text" th:field="*{id}" id="id" placeholder="ID Сотрудника"><br>
-        <input type="submit" value="Удалить сотрудника">
-    </form>
+<h1 style="color:#FF0000" th:text="${error}"></h1>
+<form method="post">
+    <label for="id">Введите Id сотрудника</label>
+    <input type="number" name="stringId" id="id" placeholder="Id">
+    <input type="submit" value="Удалить сотрудника">
+</form>
     <br>
     <p><a href="/">Команды</a></p>
 </body>

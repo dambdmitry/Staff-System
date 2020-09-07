@@ -61,15 +61,21 @@ public class StaffController {
     }
 
     @PostMapping("/removeWorker")
-    public String removeWorker(Worker worker, Model model){
-        int id = worker.getId();
-        if(staff.hasId(id)){
-            staff.remove(worker.getId());
-            String msg = "Сотрудник успешно удален";
-            model.addAttribute("message", msg);
-            return "successfullyAction";
-        }else{
-            return "notFoundWorker";
+    public String removeWorker(@RequestParam String stringId, Model model){
+        try {
+            int id = Integer.parseInt(stringId); //В html застроховано, что на вход может зайти только число.
+            if (staff.hasId(id)) {
+                staff.remove(id);
+                String msg = "Сотрудник успешно удален";
+                model.addAttribute("message", msg);
+                return "successfullyAction";
+            } else {
+                return "notFoundWorker";
+            }
+        } catch (NumberFormatException ex) {
+            String err = "Введите id";
+            model.addAttribute("error", err);
+            return "removeWorker";
         }
     }
 
@@ -79,18 +85,18 @@ public class StaffController {
     }
 
     @PostMapping("/print")
-    public String printWorkerById(@RequestParam String stringId, Model model){
-        if(!stringId.equals("")){
+    public String printWorkerById(@RequestParam String stringId, Model model) {
+        try {
             int id = Integer.parseInt(stringId); //В html застроховано, что на вход может зайти только число.
-            if(staff.hasId(id)){
+            if (staff.hasId(id)) {
                 Set<Worker> workers = new LinkedHashSet<>();
                 workers.add(staff.getWorker(id));
                 model.addAttribute("workers", workers);
                 return "printAll";
-            }else{
+            } else {
                 return "notFoundWorker";
             }
-        }else{
+        } catch (NumberFormatException ex) {
             String err = "Введите id";
             model.addAttribute("error", err);
             return "getWorkerForm";

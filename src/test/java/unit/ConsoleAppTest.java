@@ -1,10 +1,7 @@
 package unit;
 
-import org.junit.AfterClass;
+import org.junit.*;
 import org.internship.system.staff.ConsoleApp;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
 
 import java.io.*;
 import java.net.URISyntaxException;
@@ -56,6 +53,7 @@ public class ConsoleAppTest {
     }
 
     @Test
+    @Ignore
     public void consoleRun() {
         consoleApp.consoleRun();
         assertTrue(new File(path + "/actualTxt.txt").exists()

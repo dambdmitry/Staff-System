@@ -5,6 +5,7 @@ import org.internship.system.exceptions.FileSaveException;
 import org.internship.system.files.TxtDataFile;
 import org.internship.system.staff.Worker;
 import org.junit.After;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.File;

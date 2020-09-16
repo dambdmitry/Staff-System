@@ -4,11 +4,13 @@ import org.internship.system.db.DatabaseManagement;
 import org.internship.system.db.DatabaseManagementImpl;
 import org.internship.system.exceptions.*;
 import org.internship.system.files.DataFile;
+import org.internship.system.models.Worker;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PreDestroy;
 import java.util.*;
 
+@Deprecated
 @Component
 public class Staff {
     private DatabaseManagement db = new DatabaseManagementImpl();
@@ -33,7 +35,7 @@ public class Staff {
     }
 
     //Удалить сотрудника с данным id.
-    public void remove(int id) throws StaffException {
+    public void remove(int id) throws OrganizationException {
         db.removeWorker(id);
     }
 

@@ -3,7 +3,7 @@ package unit;
 import org.internship.system.exceptions.FileException;
 import org.internship.system.exceptions.FileSaveException;
 import org.internship.system.files.XmlDataFile;
-import org.internship.system.staff.Worker;
+import org.internship.system.models.Worker;
 import org.junit.After;
 import org.junit.Test;
 

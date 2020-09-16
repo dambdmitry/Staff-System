@@ -53,7 +53,6 @@ public class ConsoleAppTest {
     }
 
     @Test
-    @Ignore
     public void consoleRun() {
         consoleApp.consoleRun();
         assertTrue(new File(path + "/actualTxt.txt").exists()

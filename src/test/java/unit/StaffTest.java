@@ -2,7 +2,7 @@ package unit;
 
 import org.internship.system.exceptions.*;
 import org.internship.system.staff.Staff;
-import org.internship.system.staff.Worker;
+import org.internship.system.models.Worker;
 import org.internship.system.files.DataFile;
 import org.internship.system.files.JsonDataFile;
 import org.internship.system.files.TxtDataFile;

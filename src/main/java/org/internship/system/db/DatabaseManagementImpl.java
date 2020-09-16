@@ -3,12 +3,13 @@ package org.internship.system.db;
 import org.internship.system.db.config.Config;
 import org.internship.system.exceptions.DatabaseException;
 import org.internship.system.exceptions.NotFoundWorkerException;
-import org.internship.system.staff.Worker;
+import org.internship.system.models.Worker;
 
 import java.sql.*;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+@Deprecated
 public class DatabaseManagementImpl implements DatabaseManagement{
 
     private static final String INSERT_WORKER = "INSERT INTO worker(" +

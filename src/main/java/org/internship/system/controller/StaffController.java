@@ -1,21 +1,19 @@
 package org.internship.system.controller;
 
-import org.internship.system.exceptions.FileException;
 import org.internship.system.files.FileDistributor;
 import org.internship.system.staff.Staff;
-import org.internship.system.staff.Worker;
+import org.internship.system.models.Worker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.jws.WebParam;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+@Deprecated
 @Controller
 public class StaffController {
     private final Staff staff;

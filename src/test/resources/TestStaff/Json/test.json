@@ -40,4 +40,46 @@
       "patronymic": "Андреевич"
     }
   ]
+}{
+  "staff": [
+    {
+      "id": 1,
+      "firstName": "Дмитрий",
+      "lastName": "Бирюков",
+      "patronymic": "Михайлович"
+    },
+    {
+      "id": 2,
+      "firstName": "Степан",
+      "lastName": "Строеньев",
+      "patronymic": "Дмитриевич"
+    },
+    {
+      "id": 3,
+      "firstName": "Александр",
+      "lastName": "Глазов",
+      "patronymic": "Андреевич"
+    }
+  ]
+}{
+  "staff": [
+    {
+      "id": 1,
+      "firstName": "Дмитрий",
+      "lastName": "Бирюков",
+      "patronymic": "Михайлович"
+    },
+    {
+      "id": 2,
+      "firstName": "Степан",
+      "lastName": "Строеньев",
+      "patronymic": "Дмитриевич"
+    },
+    {
+      "id": 3,
+      "firstName": "Александр",
+      "lastName": "Глазов",
+      "patronymic": "Андреевич"
+    }
+  ]
 }

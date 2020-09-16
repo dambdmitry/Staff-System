@@ -2,7 +2,7 @@ package org.internship.system.files;
 
 import org.internship.system.exceptions.FileLoadException;
 import org.internship.system.exceptions.FileSaveException;
-import org.internship.system.staff.Worker;
+import org.internship.system.models.Worker;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

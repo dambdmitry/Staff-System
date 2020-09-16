@@ -1,6 +1,6 @@
 package unit;
 
-import org.internship.system.staff.Worker;
+import org.internship.system.models.Worker;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

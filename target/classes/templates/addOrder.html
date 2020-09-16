@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Добавить кадровый приказ</title>
+</head>
+<body>
+    <form th:action="@{/addOrder}" method="post">
+        <div class="form-group row justify-content-md-center">
+            <div class="col-2">
+                <label for="OrderNumber">Номер приказа</label>
+                <input class="form-control" type="number" name="orderNumber" id="OrderNumber" placeholder="Номер приказа" required>
+            </div>
+
+            <div class="col-2">
+                <label for="OrderDate">Дата</label>
+                <input class="form-control" type="date" name="orderDate" id="OrderDate" placeholder="Дата" required>
+            </div>
+        </div>
+
+        <div class="form-group row justify-content-md-center">
+            <div class="col-4">
+                <label for="OrderType">Тип приказа</label>
+                <select class="form-control" size="1" name="orderType" id="OrderType" required>
+                    <option value="Увольнение">Увольнение</option>
+                    <option value="Прием" selected>Прием</option>
+                    <option value="Перевод">Перевод</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group row justify-content-md-center">
+            <div class="col-4">
+                <label for="Employee">Сотрудник</label>
+                <select class="form-control" size="1" name="employeeId" id="Employee" required>
+                    <option th:each="emp: ${allEmployees}" th:value="${emp.id}" th:text="${emp.getFullName()}"></option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group row justify-content-md-center">
+            <div class="col-4" id="mayBeHidden">
+                <label for="Department">Подразделение</label>
+                <select class="form-control" size="1" name="departmentId" id="Department" required>
+                    <option th:each="dep : ${departments}" th:value="${dep.id}" th:text="${dep.departmentName}"></option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+            <div class="col-4">
+                <button type="submit" class="btn btn-primary">Добавить приказ</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="../static/scripts/hideElementScript.js" th:href="@{/scripts/hideElementScript.js}"></script>
+</html>

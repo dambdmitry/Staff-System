@@ -2,7 +2,7 @@ package org.internship.system.files;
 
 import org.internship.system.exceptions.FileLoadException;
 import org.internship.system.exceptions.FileSaveException;
-import org.internship.system.staff.Worker;
+import org.internship.system.models.Worker;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;

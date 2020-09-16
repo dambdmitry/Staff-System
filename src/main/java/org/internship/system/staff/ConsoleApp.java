@@ -5,6 +5,7 @@ import org.internship.system.files.DataFile;
 import org.internship.system.files.JsonDataFile;
 import org.internship.system.files.TxtDataFile;
 import org.internship.system.files.XmlDataFile;
+import org.internship.system.models.Worker;
 
 import java.io.*;
 import java.util.Scanner;

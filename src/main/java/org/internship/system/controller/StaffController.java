@@ -14,7 +14,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 @Deprecated
-@Controller
+//@Controller
 public class StaffController {
     private final Staff staff;
 

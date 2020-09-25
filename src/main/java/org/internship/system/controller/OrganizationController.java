@@ -5,6 +5,7 @@ import org.internship.system.models.Employee;
 import org.internship.system.models.PersonnelOrder;
 import org.internship.system.organization.Organization;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,6 +23,7 @@ public class OrganizationController {
     public OrganizationController(Organization org) {
         this.org = org;
     }
+
 
     @GetMapping("/employees")
     public String getEmployeesForm(Model model, @RequestParam(required = false) String date, @RequestParam(required = false) String departmentId){
@@ -62,7 +64,6 @@ public class OrganizationController {
         model.addAttribute("org", org);
         return "orders";
     }
-
 
     @GetMapping("/departments")
     public String getDepartmentsForm(Model model){

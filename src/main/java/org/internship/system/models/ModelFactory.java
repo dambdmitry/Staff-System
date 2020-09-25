@@ -14,4 +14,8 @@ public class ModelFactory {
     public static Department createDepartment(Long id, Long parentId, String departmentName){
         return new Department(id, parentId, departmentName);
     }
+
+    public static User createUser(String username, String password, String role){
+        return role.equals("HR") ? new User(username, password, Role.HR) : new User(username, password, Role.EMPLOYEE);
+    }
 }

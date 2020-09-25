@@ -1,6 +1,6 @@
 package org.internship.system.organization;
 
-import org.internship.system.db.OrganizationDatabase;
+import org.internship.system.db.OrganizationTables;
 import org.internship.system.exceptions.NotFoundDepartmentException;
 import org.internship.system.exceptions.NotFoundWorkerException;
 import org.internship.system.models.Department;
@@ -16,7 +16,7 @@ import java.util.Set;
 @Component
 public class Organization implements OrganizationManagment{
     @Autowired
-    private OrganizationDatabase orgDb;
+    private OrganizationTables orgDb;
 
     @PreDestroy
     public void closeConnection(){

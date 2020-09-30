@@ -1,4 +1,4 @@
-package org.internship.system.config;
+package org.internship.system.security.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

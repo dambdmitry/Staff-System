@@ -1,6 +1,6 @@
 package org.internship.system.db;
 
-import org.internship.system.db.config.Config;
+import org.internship.system.config.ApplicationConfig;
 import org.springframework.stereotype.Component;
 
 import java.sql.Connection;
@@ -17,9 +17,9 @@ public class Connect {
     public Connection getConnection() throws SQLException {
         if(connection == null) {
             connection = DriverManager.getConnection(
-                    Config.getProperty(Config.DB_URL),
-                    Config.getProperty(Config.DB_LOGIN),
-                    Config.getProperty(Config.DB_PASSWORD));
+                    ApplicationConfig.getProperty(ApplicationConfig.DB_URL),
+                    ApplicationConfig.getProperty(ApplicationConfig.DB_LOGIN),
+                    ApplicationConfig.getProperty(ApplicationConfig.DB_PASSWORD));
         }
         return connection;
     }

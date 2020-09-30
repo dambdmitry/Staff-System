@@ -1,5 +1,7 @@
 package org.internship.system.models;
 
+import org.internship.system.models.enums.Role;
+
 public class User {
     private String username;
     private String password;

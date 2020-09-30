@@ -1,4 +1,4 @@
-package org.internship.system.models;
+package org.internship.system.models.enums;
 
 public enum Permission {
     READ("read"),

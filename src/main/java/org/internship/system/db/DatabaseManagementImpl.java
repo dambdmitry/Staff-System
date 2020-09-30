@@ -1,6 +1,6 @@
 package org.internship.system.db;
 
-import org.internship.system.db.config.Config;
+import org.internship.system.config.ApplicationConfig;
 import org.internship.system.exceptions.DatabaseException;
 import org.internship.system.exceptions.NotFoundWorkerException;
 import org.internship.system.models.Worker;
@@ -28,9 +28,9 @@ public class DatabaseManagementImpl implements DatabaseManagement{
     private Connection getConnection() throws SQLException{
         if(connection == null) {
             connection = DriverManager.getConnection(
-                    Config.getProperty(Config.DB_URL),
-                    Config.getProperty(Config.DB_LOGIN),
-                    Config.getProperty(Config.DB_PASSWORD));
+                    ApplicationConfig.getProperty(ApplicationConfig.DB_URL),
+                    ApplicationConfig.getProperty(ApplicationConfig.DB_LOGIN),
+                    ApplicationConfig.getProperty(ApplicationConfig.DB_PASSWORD));
         }
         return connection;
     }

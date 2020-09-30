@@ -1,6 +1,6 @@
 package unit;
 
-import org.internship.system.db.config.Config;
+import org.internship.system.config.ApplicationConfig;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -29,9 +29,9 @@ public class DatabaseInit {
 
     private static Connection getConnection() throws SQLException {
         Connection connection = DriverManager.getConnection(
-                Config.getProperty(Config.DB_URL),
-                Config.getProperty(Config.DB_LOGIN),
-                Config.getProperty(Config.DB_PASSWORD)
+                ApplicationConfig.getProperty(ApplicationConfig.DB_URL),
+                ApplicationConfig.getProperty(ApplicationConfig.DB_LOGIN),
+                ApplicationConfig.getProperty(ApplicationConfig.DB_PASSWORD)
         );
         return connection;
     }

@@ -1,11 +1,11 @@
 package org.internship.system.controller;
 
-import org.internship.system.models.Department;
-import org.internship.system.models.Employee;
-import org.internship.system.models.PersonnelOrder;
+import org.internship.system.kafka.ProducerManagement;
+import org.internship.system.models.*;
+import org.internship.system.models.enums.ActionByUser;
+import org.internship.system.models.enums.ActionObject;
 import org.internship.system.organization.Organization;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,10 +18,13 @@ import java.util.Set;
 @Controller
 public class OrganizationController {
     private final Organization org;
+    private final ProducerManagement producer;
+
 
     @Autowired
-    public OrganizationController(Organization org) {
+    public OrganizationController(Organization org, ProducerManagement producer) {
         this.org = org;
+        this.producer = producer;
     }
 
 
@@ -49,6 +52,9 @@ public class OrganizationController {
         Long id = Long.parseLong(idForDelete);
         if(!org.hasEmployeeOrders(id)){
             org.removeEmployee(id);
+
+            producer.sendMessage(ActionByUser.REMOVE.getName(), ActionObject.EMPLOYEE.getName());
+
             return "redirect:/employees";
         }else{
             String msg = "Невозможно удалить этого работника";
@@ -78,6 +84,9 @@ public class OrganizationController {
         Long id = Long.parseLong(idForDelete);
         if(!org.hasDepartmentOrders(id)){
             org.removeDeparment(id);
+
+            producer.sendMessage(ActionByUser.REMOVE.getName(), ActionObject.DEPARTMENT.getName());
+
             return "redirect:/departments";
         }else{
             String msg = "Невозможно удалить это подразделение";
@@ -95,6 +104,9 @@ public class OrganizationController {
     public String addEmployee(Model model, String lastName, String firstName, String patronymic){
         if(!lastName.equals("") && !firstName.equals("") && !patronymic.equals("")) {
             org.addEmployee(lastName, firstName, patronymic);
+
+            producer.sendMessage(ActionByUser.ADDITION.getName(), ActionObject.EMPLOYEE.getName());
+
             return "redirect:/employees";
         }else{
             String err = "Заполните все поля";
@@ -127,6 +139,7 @@ public class OrganizationController {
                     }else{
                         org.addOrder(orderDate, number, orderType, Long.parseLong(departmentId), Long.parseLong(employeeId));
                     }
+                    producer.sendMessage(ActionByUser.ADDITION.getName(), ActionObject.ORDER.getName());
                     return "redirect:/orders";
                 }else{
                     String msg = "Заполните все поля";
@@ -161,6 +174,7 @@ public class OrganizationController {
             }else{
                 org.addDepartment(newDepartmentName);
             }
+            producer.sendMessage(ActionByUser.ADDITION.getName(), ActionObject.DEPARTMENT.getName());
             return "redirect:/departments";
         }else{
             String msg = "Введите название подразделения";

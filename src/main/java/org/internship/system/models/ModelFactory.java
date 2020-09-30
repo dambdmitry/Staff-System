@@ -1,5 +1,7 @@
 package org.internship.system.models;
 
+import org.internship.system.models.enums.Role;
+
 import java.util.Date;
 
 public class ModelFactory {
@@ -17,5 +19,9 @@ public class ModelFactory {
 
     public static User createUser(String username, String password, String role){
         return role.equals("HR") ? new User(username, password, Role.HR) : new User(username, password, Role.EMPLOYEE);
+    }
+
+    public static UserAction createUserAction(String login, String action, String object){
+        return new UserAction(login, action, object);
     }
 }

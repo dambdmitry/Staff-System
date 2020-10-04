@@ -15,6 +15,7 @@ import java.util.Set;
 
 import static org.junit.Assert.*;
 
+
 public class JsonDataFileTest {
     JsonDataFile file = new JsonDataFile();
     String path = System.getProperty("user.dir") + "/src/test/resources/TestJSON";

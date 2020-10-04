@@ -1,9 +1,9 @@
 package org.internship.system.controller;
 
-import org.internship.system.kafka.ProducerManagement;
 import org.internship.system.models.*;
 import org.internship.system.models.enums.ActionByUser;
 import org.internship.system.models.enums.ActionObject;
+import org.internship.system.mq.Producer;
 import org.internship.system.organization.Organization;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -18,12 +18,15 @@ import java.util.Set;
 @Controller
 public class OrganizationController {
     private final Organization org;
-    private final ProducerManagement producer;
+    //private final ProducerManagement producer;
+    @Autowired
+    private final Producer producer;
 
 
     @Autowired
-    public OrganizationController(Organization org, ProducerManagement producer) {
+    public OrganizationController(Organization org, /*, ProducerManagement producer*/Producer producer) {
         this.org = org;
+        //this.producer = producer;
         this.producer = producer;
     }
 

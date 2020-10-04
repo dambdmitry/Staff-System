@@ -14,6 +14,7 @@ import java.sql.Statement;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
 public class DatabaseInit {
     public static void startNewDB() throws URISyntaxException, IOException {
         URL url = DatabaseInit.class.getClassLoader().getResource("staff_table.sql");

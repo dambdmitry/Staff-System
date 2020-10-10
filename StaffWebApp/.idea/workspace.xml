@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ebc150c-28ac-4a52-a2e9-c3069d32dd10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Staff/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Staff/target/test-classes/unit/ConsoleAppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Staff/target/test-classes/unit/DatabaseInit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Staff/target/test-classes/unit/TestSuite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Staff/target/test-classes/unit/WorkerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/StaffSystemMaven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/.idea/StaffSystemMaven.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StaffSystemMaven.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/StaffSystemMaven.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/controller/HttpErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/controller/HttpErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/controller/OrganizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/controller/OrganizationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/controller/StaffController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/controller/StaffController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/db/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/db/Connect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/db/DatabaseManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/db/DatabaseManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/db/DatabaseManagementImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/db/DatabaseManagementImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/db/MessagesTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/db/MessagesTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/db/MessagesTableManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/db/MessagesTableManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/db/OrganizationTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/db/OrganizationTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/db/OrganizationTablesManagment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/db/OrganizationTablesManagment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/db/UsersTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/db/UsersTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/db/UsersTableManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/db/UsersTableManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/exceptions/DatabaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/exceptions/DatabaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/exceptions/FileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/exceptions/FileException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/exceptions/FileLoadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/exceptions/FileLoadException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/exceptions/FileSaveException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/exceptions/FileSaveException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/exceptions/NotFoundDepartmentException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/exceptions/NotFoundDepartmentException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/exceptions/NotFoundOrderException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/exceptions/NotFoundOrderException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/exceptions/NotFoundWorkerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/exceptions/NotFoundWorkerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/exceptions/OrganizationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/exceptions/OrganizationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/files/DataFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/files/DataFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/files/FileDistributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/files/FileDistributor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/files/JsonDataFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/files/JsonDataFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/files/TxtDataFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/files/TxtDataFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/files/XmlDataFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/files/XmlDataFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/models/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/models/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/models/ModelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/models/ModelFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/models/PersonnelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/models/PersonnelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/models/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/models/UserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/models/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/models/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/models/enums/ActionByUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/models/enums/ActionByUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/models/enums/ActionObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/models/enums/ActionObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/models/enums/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/models/enums/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/models/enums/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/models/enums/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/mq/ConsumerManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/mq/ConsumerManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/mq/ConsumerMq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/mq/ConsumerMq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/mq/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/mq/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/mq/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/mq/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/organization/Organization.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/organization/Organization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/organization/OrganizationManagment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/organization/OrganizationManagment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/security/SecurityUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/security/SecurityUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/security/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/security/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/security/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/staff/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/staff/ConsoleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/staff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/staff/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/org/internship/system/staff/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/java/org/internship/system/staff/Staff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/departments-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/departments-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/employees_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/employees_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/messages-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/messages-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/orders-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/orders-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/staff_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/staff_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/scripts/doc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/static/scripts/doc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/scripts/hideElementScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/static/scripts/hideElementScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/static/scripts/selectInTableScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/static/scripts/selectInTableScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/HttpErrors/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/templates/HttpErrors/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/HttpErrors/noAccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/templates/HttpErrors/noAccess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/HttpErrors/notFound.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/templates/HttpErrors/notFound.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/HttpErrors/serverError.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/templates/HttpErrors/serverError.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/addDepartment.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/templates/addDepartment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/addEmployeeForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/templates/addEmployeeForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/addOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/templates/addOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/departments.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/templates/departments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/templates/employees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/templates/mainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/templates/orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/users-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/main/resources/users-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/org/internship/system/db/DatabaseManagementImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/unit/ConsoleAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/java/unit/ConsoleAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/unit/DatabaseInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/java/unit/DatabaseInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/unit/JsonDataFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/java/unit/JsonDataFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/unit/StaffTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/java/unit/StaffTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/unit/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/java/unit/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/unit/TxtDataFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/java/unit/TxtDataFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/unit/WorkerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/java/unit/WorkerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/unit/XmlDataFileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/java/unit/XmlDataFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestConsoleApp/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestConsoleApp/commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestConsoleApp/expectedJson.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestConsoleApp/expectedJson.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestConsoleApp/expectedText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestConsoleApp/expectedText.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestConsoleApp/expectedTxt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestConsoleApp/expectedTxt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestConsoleApp/expectedXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestConsoleApp/expectedXml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestConsoleApp/json2.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestConsoleApp/json2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestConsoleApp/txt1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestConsoleApp/txt1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestConsoleApp/xml3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestConsoleApp/xml3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestJSON/fileToLoad.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestJSON/fileToLoad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestJSON/fileToSave.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestJSON/fileToSave.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestJSON/new/fileToLoad.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestJSON/new/fileToLoad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestJSON/new/fileToSave.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestJSON/new/fileToSave.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestStaff/Json/load.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestStaff/Json/load.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestStaff/Json/sampleSave.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestStaff/Json/sampleSave.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestStaff/Json/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestStaff/Json/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestStaff/Txt/load.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestStaff/Txt/load.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestStaff/Txt/sampleSave.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestStaff/Txt/sampleSave.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestStaff/Txt/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestStaff/Txt/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestStaff/Xml/load.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestStaff/Xml/load.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestStaff/Xml/sampleSave.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestStaff/Xml/sampleSave.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestStaff/Xml/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestStaff/Xml/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestTXT/expectedFileToSave.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestTXT/expectedFileToSave.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestTXT/fileToLoad.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestTXT/fileToLoad.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestXML/fileToLoad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestXML/fileToLoad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/resources/TestXML/fileToSave.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/src/test/resources/TestXML/fileToSave.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/StaffWebApp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/StaffWebApp.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/StaffWebApp.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/StaffWebApp.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/departments-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/departments-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/employees_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/employees_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/messages-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/messages-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/orders-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/orders-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/config/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/config/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/controller/HttpErrorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/controller/HttpErrorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/controller/OrganizationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/controller/OrganizationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/controller/StaffController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/controller/StaffController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/db/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/db/Connect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/db/DatabaseManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/db/DatabaseManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/db/DatabaseManagementImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/db/DatabaseManagementImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/db/MessagesTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/db/MessagesTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/db/MessagesTableManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/db/MessagesTableManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/db/OrganizationTables.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/db/OrganizationTables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/db/OrganizationTablesManagment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/db/OrganizationTablesManagment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/db/UsersTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/db/UsersTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/db/UsersTableManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/db/UsersTableManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/exceptions/DatabaseException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/exceptions/DatabaseException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/exceptions/FileException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/exceptions/FileException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/exceptions/FileLoadException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/exceptions/FileLoadException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/exceptions/FileSaveException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/exceptions/FileSaveException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/exceptions/NotFoundDepartmentException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/exceptions/NotFoundDepartmentException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/exceptions/NotFoundOrderException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/exceptions/NotFoundOrderException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/exceptions/NotFoundWorkerException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/exceptions/NotFoundWorkerException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/exceptions/OrganizationException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/exceptions/OrganizationException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/files/DataFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/files/DataFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/files/FileDistributor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/files/FileDistributor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/files/JsonDataFile$StaffJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/files/JsonDataFile$StaffJSON.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/files/JsonDataFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/files/JsonDataFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/files/TxtDataFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/files/TxtDataFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/files/XmlDataFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/files/XmlDataFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/models/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/models/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/models/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/models/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/models/ModelFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/models/ModelFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/models/PersonnelOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/models/PersonnelOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/models/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/models/UserAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/models/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/models/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/models/enums/ActionByUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/models/enums/ActionByUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/models/enums/ActionObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/models/enums/ActionObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/models/enums/Permission.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/models/enums/Permission.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/models/enums/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/models/enums/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/mq/ConsumerManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/mq/ConsumerManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/mq/ConsumerMq.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/mq/ConsumerMq.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/mq/Converter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/mq/Converter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/mq/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/mq/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/organization/Organization.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/organization/Organization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/organization/OrganizationManagment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/organization/OrganizationManagment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/security/SecurityUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/security/SecurityUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/security/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/security/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/security/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/security/config/MvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/security/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/security/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/staff/ConsoleApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/staff/ConsoleApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/staff/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/staff/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/org/internship/system/staff/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/org/internship/system/staff/Staff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/staff_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/staff_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/static/scripts/doc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/static/scripts/doc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/static/scripts/hideElementScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/static/scripts/hideElementScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/static/scripts/selectInTableScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/static/scripts/selectInTableScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/HttpErrors/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/templates/HttpErrors/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/HttpErrors/noAccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/templates/HttpErrors/noAccess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/HttpErrors/notFound.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/templates/HttpErrors/notFound.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/HttpErrors/serverError.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/templates/HttpErrors/serverError.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/addDepartment.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/templates/addDepartment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/addEmployeeForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/templates/addEmployeeForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/addOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/templates/addOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/departments.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/templates/departments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/templates/employees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/templates/mainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/templates/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/templates/orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/users-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/classes/users-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-org.internship.system.db.DatabaseManagementImplTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/TEST-org.internship.system.db.DatabaseManagementImplTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-unit.ConsoleAppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/TEST-unit.ConsoleAppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-unit.JsonDataFileTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/TEST-unit.JsonDataFileTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-unit.StaffTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/TEST-unit.StaffTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-unit.TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/TEST-unit.TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-unit.TxtDataFileTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/TEST-unit.TxtDataFileTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-unit.WorkerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/TEST-unit.WorkerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/TEST-unit.XmlDataFileTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/TEST-unit.XmlDataFileTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/org.internship.system.db.DatabaseManagementImplTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/org.internship.system.db.DatabaseManagementImplTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/unit.ConsoleAppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/unit.ConsoleAppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/unit.JsonDataFileTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/unit.JsonDataFileTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/unit.StaffTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/unit.StaffTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/unit.TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/unit.TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/unit.TxtDataFileTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/unit.TxtDataFileTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/unit.WorkerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/unit.WorkerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/surefire-reports/unit.XmlDataFileTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/surefire-reports/unit.XmlDataFileTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestConsoleApp/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestConsoleApp/commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestConsoleApp/expectedJson.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestConsoleApp/expectedJson.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestConsoleApp/expectedText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestConsoleApp/expectedText.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestConsoleApp/expectedTxt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestConsoleApp/expectedTxt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestConsoleApp/expectedXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestConsoleApp/expectedXml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestConsoleApp/json2.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestConsoleApp/json2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestConsoleApp/txt1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestConsoleApp/txt1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestConsoleApp/xml3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestConsoleApp/xml3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestJSON/fileToLoad.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestJSON/fileToLoad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestJSON/fileToSave.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestJSON/fileToSave.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestJSON/new/fileToLoad.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestJSON/new/fileToLoad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestJSON/new/fileToSave.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestJSON/new/fileToSave.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestStaff/Json/load.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestStaff/Json/load.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestStaff/Json/sampleSave.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestStaff/Json/sampleSave.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestStaff/Json/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestStaff/Json/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestStaff/Txt/load.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestStaff/Txt/load.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestStaff/Txt/sampleSave.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestStaff/Txt/sampleSave.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestStaff/Txt/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestStaff/Txt/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestStaff/Xml/load.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestStaff/Xml/load.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestStaff/Xml/sampleSave.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestStaff/Xml/sampleSave.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestStaff/Xml/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestStaff/Xml/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestTXT/expectedFileToSave.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestTXT/expectedFileToSave.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestTXT/fileToLoad.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestTXT/fileToLoad.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestXML/fileToLoad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestXML/fileToLoad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/TestXML/fileToSave.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/TestXML/fileToSave.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/org/internship/system/db/DatabaseManagementImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/org/internship/system/db/DatabaseManagementImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/unit/ConsoleAppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/unit/DatabaseInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/unit/JsonDataFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/unit/JsonDataFileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/unit/StaffTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/unit/StaffTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/unit/TestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/unit/TxtDataFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/unit/TxtDataFileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/unit/WorkerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/test-classes/unit/XmlDataFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Staff/target/test-classes/unit/XmlDataFileTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Admin\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1igEBolxIajLZH8NSUji1BYWqTx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="StaffApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="StaffWebApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.prctice.staff.StaffApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ebc150c-28ac-4a52-a2e9-c3069d32dd10" name="Default Changelist" comment="" />
+      <created>1602320710261</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602320710261</updated>
+      <workItem from="1602320720759" duration="502000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

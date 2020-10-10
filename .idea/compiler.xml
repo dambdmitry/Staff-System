@@ -6,15 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="StaffSystemMaven" />
+        <module name="staff" />
+        <module name="consumer" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="consumer" target="1.8" />
+      <module name="staff" target="1.8" />
+      <module name="StaffSystemMaven" target="8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
-    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="StaffSystemMaven" options="-parameters" />
+      <module name="consumer" options="-parameters" />
+      <module name="staff" options="-parameters" />
     </option>
   </component>
 </project>

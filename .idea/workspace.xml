@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a509f3a6-4366-4c21-90a9-8434b0ec85a8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/StaffSystemMaven.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaffSystemMaven.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/controller/HttpErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/controller/HttpErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/controller/OrganizationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/controller/OrganizationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/controller/StaffController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/db/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/db/Connect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/db/DatabaseManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/db/DatabaseManagementImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/db/MessagesTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/db/MessagesTableManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/db/OrganizationTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/db/OrganizationTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/db/OrganizationTablesManagment.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/db/OrganizationTablesManagment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/db/UsersTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/db/UsersTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/db/UsersTableManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/db/UsersTableManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/exceptions/DatabaseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/exceptions/DatabaseException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/exceptions/FileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/exceptions/FileException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/exceptions/FileLoadException.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/exceptions/FileLoadException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/exceptions/FileSaveException.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/exceptions/FileSaveException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/exceptions/NotFoundDepartmentException.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/exceptions/NotFoundDepartmentException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/exceptions/NotFoundOrderException.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/exceptions/NotFoundOrderException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/exceptions/NotFoundWorkerException.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/exceptions/NotFoundWorkerException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/exceptions/OrganizationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/exceptions/OrganizationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/files/DataFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/files/FileDistributor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/files/JsonDataFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/files/TxtDataFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/files/XmlDataFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/models/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/models/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/models/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/models/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/models/ModelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/models/ModelFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/models/PersonnelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/models/PersonnelOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/models/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/models/UserAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/models/Worker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/models/enums/ActionByUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/models/enums/ActionByUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/models/enums/ActionObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/models/enums/ActionObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/models/enums/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/models/enums/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/models/enums/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/models/enums/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/mq/ConsumerManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/mq/ConsumerMq.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/mq/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/mq/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/mq/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/mq/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/organization/Organization.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/organization/Organization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/organization/OrganizationManagment.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/organization/OrganizationManagment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/security/SecurityUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/security/SecurityUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/security/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/security/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/security/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/security/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/java/edu/prctice/staff/security/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/staff/ConsoleApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/staff/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/internship/system/staff/Staff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/departments-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/departments-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/employees_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/employees_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/messages-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/messages-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/orders-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/orders-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/staff_table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/staff_table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/doc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/static/scripts/doc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/hideElementScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/static/scripts/hideElementScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/scripts/selectInTableScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/static/scripts/selectInTableScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HttpErrors/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/templates/HttpErrors/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HttpErrors/noAccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/templates/HttpErrors/noAccess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HttpErrors/notFound.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/templates/HttpErrors/notFound.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/HttpErrors/serverError.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/templates/HttpErrors/serverError.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addDepartment.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/templates/addDepartment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addEmployeeForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/templates/addEmployeeForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/templates/addOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/departments.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/templates/departments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/templates/employees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mainPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/templates/mainPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/templates/orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/users-table.sql" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/main/resources/users-table.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/internship/system/db/DatabaseManagementImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/ConsoleAppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/DatabaseInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/JsonDataFileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/StaffTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/TestSuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/TxtDataFileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/WorkerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit/XmlDataFileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestConsoleApp/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestConsoleApp/commands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestConsoleApp/expectedJson.json" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestConsoleApp/expectedJson.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestConsoleApp/expectedText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestConsoleApp/expectedText.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestConsoleApp/expectedTxt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestConsoleApp/expectedTxt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestConsoleApp/expectedXml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestConsoleApp/expectedXml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestConsoleApp/json2.json" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestConsoleApp/json2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestConsoleApp/txt1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestConsoleApp/txt1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestConsoleApp/xml3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestConsoleApp/xml3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestJSON/fileToLoad.json" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestJSON/fileToLoad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestJSON/fileToSave.json" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestJSON/fileToSave.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestJSON/new/fileToLoad.json" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestJSON/new/fileToLoad.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestJSON/new/fileToSave.json" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestJSON/new/fileToSave.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestStaff/Json/load.json" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestStaff/Json/load.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestStaff/Json/sampleSave.json" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestStaff/Json/sampleSave.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestStaff/Json/test.json" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestStaff/Json/test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestStaff/Txt/load.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestStaff/Txt/load.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestStaff/Txt/sampleSave.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestStaff/Txt/sampleSave.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestStaff/Txt/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestStaff/Txt/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestStaff/Xml/load.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestStaff/Xml/load.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestStaff/Xml/sampleSave.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestStaff/Xml/sampleSave.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestStaff/Xml/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestStaff/Xml/test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestTXT/expectedFileToSave.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestTXT/expectedFileToSave.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestTXT/fileToLoad.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestTXT/fileToLoad.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestXML/fileToLoad.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestXML/fileToLoad.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestXML/fileToSave.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StaffWebApp/src/test/resources/TestXML/fileToSave.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/StaffWebApp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/StaffWebApp.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/departments-table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/employees_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/messages-table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/orders-table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/config/ApplicationConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/controller/HttpErrorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/controller/OrganizationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/controller/StaffController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/db/Connect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/db/DatabaseManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/db/DatabaseManagementImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/db/MessagesTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/db/MessagesTableManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/db/OrganizationTables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/db/OrganizationTablesManagment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/db/UsersTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/db/UsersTableManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/exceptions/DatabaseException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/exceptions/FileException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/exceptions/FileLoadException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/exceptions/FileSaveException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/exceptions/NotFoundDepartmentException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/exceptions/NotFoundOrderException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/exceptions/NotFoundWorkerException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/exceptions/OrganizationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/files/DataFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/files/FileDistributor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/files/JsonDataFile$StaffJSON.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/files/JsonDataFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/files/TxtDataFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/files/XmlDataFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/models/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/models/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/models/ModelFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/models/PersonnelOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/models/UserAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/models/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/models/enums/ActionByUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/models/enums/ActionObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/models/enums/Permission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/models/enums/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/mq/ConsumerManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/mq/ConsumerMq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/mq/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/mq/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/organization/Organization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/organization/OrganizationManagment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/security/SecurityUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/security/UserDetailsServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/security/config/MvcConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/security/config/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/staff/ConsoleApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/staff/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/internship/system/staff/Staff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/staff_table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/doc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/hideElementScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/scripts/selectInTableScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/HttpErrors/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/HttpErrors/noAccess.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/HttpErrors/notFound.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/HttpErrors/serverError.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/addDepartment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/addEmployeeForm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/addOrder.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/departments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/employees.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/mainPage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/orders.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/users-table.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-org.internship.system.db.DatabaseManagementImplTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.ConsoleAppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.JsonDataFileTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.StaffTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.TxtDataFileTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.WorkerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit.XmlDataFileTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/org.internship.system.db.DatabaseManagementImplTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.ConsoleAppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.JsonDataFileTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.StaffTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.TxtDataFileTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.WorkerTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit.XmlDataFileTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestConsoleApp/commands.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestConsoleApp/expectedJson.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestConsoleApp/expectedText.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestConsoleApp/expectedTxt.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestConsoleApp/expectedXml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestConsoleApp/json2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestConsoleApp/txt1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestConsoleApp/xml3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestJSON/fileToLoad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestJSON/fileToSave.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestJSON/new/fileToLoad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestJSON/new/fileToSave.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestStaff/Json/load.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestStaff/Json/sampleSave.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestStaff/Json/test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestStaff/Txt/load.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestStaff/Txt/sampleSave.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestStaff/Txt/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestStaff/Xml/load.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestStaff/Xml/sampleSave.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestStaff/Xml/test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestTXT/expectedFileToSave.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestTXT/fileToLoad.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestXML/fileToLoad.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestXML/fileToSave.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/internship/system/db/DatabaseManagementImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/ConsoleAppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/DatabaseInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/JsonDataFileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/StaffTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/TestSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/TxtDataFileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/WorkerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unit/XmlDataFileTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1igFKG2bZRR3fxLNMU8sob3elsV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Staff System\StaffSystemMaven\StaffWebApp" />
+      <recent name="C:\Users\Admin\Desktop\Staff System\StaffSystemMaven\StaffWebApp\src\test" />
+      <recent name="C:\Users\Admin\Desktop\Staff System\StaffSystemMaven\StaffWebApp\src\test\java" />
+      <recent name="C:\Users\Admin\Desktop\Staff System\StaffSystemMaven\StaffWebApp\src\main\resources" />
+      <recent name="C:\Users\Admin\Desktop\Staff System\StaffSystemMaven\StaffWebApp\src\main\java\edu\prctice\staff" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.practice.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaffApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="staff" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.prctice.staff.StaffApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a509f3a6-4366-4c21-90a9-8434b0ec85a8" name="Default Changelist" comment="" />
+      <created>1602321263676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602321263676</updated>
+      <workItem from="1602321266247" duration="1337000" />
+      <workItem from="1602324402459" duration="11823000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="163" y="0" key="#Project_Structure" timestamp="1602327509050">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1602327509050" />
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602334824521">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602334824521" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602337748264">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1602337748264" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1602338120173">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602338120173" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1602338120172">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1602338120172" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1602338120172">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1602338120172" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1602338120173">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1602338120173" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1602338119473">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602338119473" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1602338119473">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1602338119473" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1602338119472">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1602338119472" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1602338119473">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1602338119473" />
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom" timestamp="1602338119474">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1602338119474" />
+    <state width="1323" height="223" key="GridCell.Tab.2.center" timestamp="1602338119474">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1602338119474" />
+    <state width="1323" height="223" key="GridCell.Tab.2.left" timestamp="1602338119474">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1602338119474" />
+    <state width="1323" height="223" key="GridCell.Tab.2.right" timestamp="1602338119474">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1602338119474" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1602335915976">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602335915976" />
+    <state x="65" y="24" key="new project wizard" timestamp="1602331261790">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1602331261790" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/StaffSystemMaven$ConsumerApplication.ic" NAME="ConsumerApplication Coverage Results" MODIFIED="1602336043406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

@@ -1,9 +1,0 @@
-org\internship\system\db\DatabaseManagementImplTest.class
-unit\ConsoleAppTest.class
-unit\TestSuite.class
-unit\JsonDataFileTest.class
-unit\StaffTest.class
-unit\DatabaseInit.class
-unit\WorkerTest.class
-unit\TxtDataFileTest.class
-unit\XmlDataFileTest.class

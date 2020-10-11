@@ -1,0 +1,41 @@
+version: '3.3'
+services:
+  db:
+    image: library/postgres:10-alpine
+    ports:
+    - 5432:5432
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: Organization
+
+  staff:
+    image: staff-app
+    build:
+      StaffWebApp/.
+    depends_on:
+      - db
+      - jms
+    ports:
+    - 8080:8080
+    restart: always
+
+  consumer:
+    image: consumer-app
+    build:
+      Listener/.
+    depends_on:
+      - db
+      - jms
+    ports:
+    - 8081:8081
+    restart: always
+
+  jms:
+    image: webcenter/activemq
+    ports:
+    - 61616:61616
+    environment:
+      ACTIVEMQ_ADMIN_LOGIN: admin
+      ACTIVEMQ_ADMIN_PASSWORD: admin

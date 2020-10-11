@@ -1,7 +1,7 @@
 package edu.practice.consumer.listener;
 
 import edu.practice.consumer.database.MessagesTable;
-import edu.prctice.staff.models.UserAction;
+import edu.practice.consumer.model.UserAction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

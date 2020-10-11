@@ -1,6 +1,6 @@
 package edu.practice.consumer.listener;
 
-import edu.prctice.staff.models.UserAction;
+import edu.practice.consumer.model.UserAction;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jms.support.converter.MappingJackson2MessageConverter;

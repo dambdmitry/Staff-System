@@ -1,6 +1,7 @@
 package edu.practice.consumer.listener;
 
-import edu.prctice.staff.models.UserAction;
+
+import edu.practice.consumer.model.UserAction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;

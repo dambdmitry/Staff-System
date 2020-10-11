@@ -1,6 +1,6 @@
 package edu.practice.consumer.database;
 
-import edu.prctice.staff.config.ApplicationConfig;
+import edu.practice.consumer.config.ApplicationConfig;
 import org.springframework.stereotype.Component;
 
 import java.sql.Connection;

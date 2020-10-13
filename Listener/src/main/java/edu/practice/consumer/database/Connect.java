@@ -1,33 +1,3 @@
-package edu.practice.consumer.database;
-
-import edu.practice.consumer.config.ApplicationConfig;
-import org.springframework.stereotype.Component;
-
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-
-@Component
-public class Connect {
-    private Connection connection = null;
-
-    public Connection getConnection() throws SQLException {
-        if(connection == null) {
-            connection = DriverManager.getConnection(
-                    ApplicationConfig.getProperty(ApplicationConfig.DB_URL),
-                    ApplicationConfig.getProperty(ApplicationConfig.DB_LOGIN),
-                    ApplicationConfig.getProperty(ApplicationConfig.DB_PASSWORD));
-        }
-        return connection;
-    }
-
-    public void closeConnection() {
-        try {
-            if(connection != null && !connection.isClosed()){
-                connection.close();
-            }
-        } catch (SQLException throwables) {
-            throw new RuntimeException(throwables);
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c404520c78bd870ac8b2b87514bbdbfb79416a19572af1c39986b05d0eed3265
+size 1019

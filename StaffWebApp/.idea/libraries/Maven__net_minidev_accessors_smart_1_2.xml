@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: net.minidev:accessors-smart:1.2">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/net/minidev/accessors-smart/1.2/accessors-smart-1.2.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/net/minidev/accessors-smart/1.2/accessors-smart-1.2-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/net/minidev/accessors-smart/1.2/accessors-smart-1.2-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e4ee9e6f37bbb72b9684dcde116bcf503cfc00555c56acbf93aa2cc5ddfdcef
+size 530

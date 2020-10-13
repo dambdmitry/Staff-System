@@ -1,10 +1,3 @@
-CREATE TABLE orders(
-	order_date DATE NOT NULL,
-	order_number BIGINT NOT NULL,
-	order_type VARCHAR(15) NOT NULL,
-	department_id BIGINT REFERENCES Departments(department_id),
-	employee_id BIGINT REFERENCES employees(employee_id) NOT NULL
-);
-
-ALTER TABLE orders ADD CONSTRAINT order_type CHECK(
-	order_type = 'Увольнение' OR order_type = 'Перевод' OR order_type = 'Прием');
+version https://git-lfs.github.com/spec/v1
+oid sha256:adaad6350deb9c558dfb94d40f121f33377d25e0258b3e49007cad729daa93c3
+size 393

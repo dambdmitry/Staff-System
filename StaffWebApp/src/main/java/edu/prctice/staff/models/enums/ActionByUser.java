@@ -1,16 +1,3 @@
-package edu.prctice.staff.models.enums;
-
-public enum ActionByUser {
-    ADDITION("addition"),
-    REMOVE("remove");
-
-    private final String name;
-
-    ActionByUser(String name) {
-        this.name = name;
-    }
-
-    public String getName() {
-        return name;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:39062176f673d911dcf0fb2557390755e7b5f693f0199f0ccd2579ecb57c5fa5
+size 273

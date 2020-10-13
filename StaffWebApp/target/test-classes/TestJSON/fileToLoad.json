@@ -1,22 +1,3 @@
-{
-  "staff": [
-    {
-      "id": 1,
-      "firstName": "Степан",
-      "lastName": "Строеньев",
-      "patronymic": "Дмитриевич"
-    },
-    {
-      "id": 2,
-      "firstName": "Александр",
-      "lastName": "Глазов",
-      "patronymic": "Михайлович"
-    },
-    {
-      "id": 3,
-      "firstName": "Дмитрий",
-      "lastName": "Озеров",
-      "patronymic": "Андреевич"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:46af484bef88322dede3c1f5444e4de49c164e9b14560610096f4080ad1427a3
+size 451

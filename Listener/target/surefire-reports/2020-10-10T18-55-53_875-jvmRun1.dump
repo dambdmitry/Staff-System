@@ -1,15 +1,3 @@
-# Created at 2020-10-10T18:57:41.356
-System.exit() or native command error interrupted process checker.
-java.lang.IllegalStateException: error [STOPPED] to read process 39256
-	at org.apache.maven.surefire.booter.PpidChecker.checkProcessInfo(PpidChecker.java:145)
-	at org.apache.maven.surefire.booter.PpidChecker.isProcessAlive(PpidChecker.java:116)
-	at org.apache.maven.surefire.booter.ForkedBooter$2.run(ForkedBooter.java:214)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
-	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:4d317588af293f348a6efa438950e32e9dc35ab072bdbd9c9bb94bb1956d20ec
+size 1022

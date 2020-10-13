@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: org.springframework:spring-test:5.2.2.RELEASE">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.2.2.RELEASE/spring-test-5.2.2.RELEASE-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:8611a62e3b97ffb92499c2b24ea8ae89fb75b9ce1211ca9998430e9e2c05b2df
+size 604

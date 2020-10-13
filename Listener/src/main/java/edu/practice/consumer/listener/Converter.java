@@ -1,19 +1,3 @@
-package edu.practice.consumer.listener;
-
-import edu.practice.consumer.model.UserAction;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.jms.support.converter.MappingJackson2MessageConverter;
-
-import java.util.Collections;
-
-@Configuration
-public class Converter {
-    @Bean
-    public MappingJackson2MessageConverter messageConverter(){
-        final MappingJackson2MessageConverter messageConverter = new MappingJackson2MessageConverter();
-        messageConverter.setTypeIdPropertyName("content-type");
-        messageConverter.setTypeIdMappings(Collections.singletonMap("action", UserAction.class));
-        return messageConverter;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d495f4b18a4b5f22b44fa7b7850491d2534c6b81948f8ac1782c59efa8860ad8
+size 735

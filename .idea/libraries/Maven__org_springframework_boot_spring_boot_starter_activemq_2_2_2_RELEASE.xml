@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: org.springframework.boot:spring-boot-starter-activemq:2.2.2.RELEASE">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-activemq/2.2.2.RELEASE/spring-boot-starter-activemq-2.2.2.RELEASE.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-activemq/2.2.2.RELEASE/spring-boot-starter-activemq-2.2.2.RELEASE-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-activemq/2.2.2.RELEASE/spring-boot-starter-activemq-2.2.2.RELEASE-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bb8c2f6933563350e8b4d296a3fee711c898b1562b59ceb8668bbe7522f54df
+size 743

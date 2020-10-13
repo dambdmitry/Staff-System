@@ -1,13 +1,3 @@
-package edu.prctice.staff.security.config;
-
-import org.springframework.context.annotation.Configuration;
-import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-
-@Configuration
-public class MvcConfig implements WebMvcConfigurer {
-    public void addViewControllers(ViewControllerRegistry registry){
-        registry.addViewController("/login").setViewName("login");
-        registry.addViewController("/").setViewName("mainPage");
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf3758a6241ea579c2e3b0c675b660ba341e62553463e41351e0a214d9d6c15a
+size 539

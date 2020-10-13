@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: com.google.errorprone:error_prone_annotations:2.3.2">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:b47702192806cc7bc0d277af131235e296bdae2b6e4b2686dfcd46e936d7086d
+size 640

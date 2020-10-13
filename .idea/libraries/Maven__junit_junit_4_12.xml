@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: junit:junit:4.12">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:99bdbb71de6482a2881c2a9d7f8486c74ce52755d27aebede46004a379b223c1
+size 443

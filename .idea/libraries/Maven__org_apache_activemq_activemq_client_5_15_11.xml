@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: org.apache.activemq:activemq-client:5.15.11">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-client/5.15.11/activemq-client-5.15.11.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-client/5.15.11/activemq-client-5.15.11-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/activemq/activemq-client/5.15.11/activemq-client-5.15.11-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:be51696e4294a1c21a916cdfeee9f8156405c0a3b00d4ccab7dc9394c589aff5
+size 590

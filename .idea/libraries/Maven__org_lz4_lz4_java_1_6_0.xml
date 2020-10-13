@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: org.lz4:lz4-java:1.6.0">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/lz4/lz4-java/1.6.0/lz4-java-1.6.0-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef075c58956430f6233d0dbbd31eb5acca1f35ce44526d24750e9a930febe2c5
+size 479

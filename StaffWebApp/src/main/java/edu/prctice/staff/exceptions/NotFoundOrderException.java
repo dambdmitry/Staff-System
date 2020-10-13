@@ -1,7 +1,3 @@
-package edu.prctice.staff.exceptions;
-
-public class NotFoundOrderException extends OrganizationException{
-    public NotFoundOrderException(String msg) {
-        super(msg);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:aca4f75931f640fd618e19fb612f0bfbc4c649f53118d7bbe8612e186a187b46
+size 182

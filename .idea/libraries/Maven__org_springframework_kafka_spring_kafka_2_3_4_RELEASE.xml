@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: org.springframework.kafka:spring-kafka:2.3.4.RELEASE">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.3.4.RELEASE/spring-kafka-2.3.4.RELEASE.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.3.4.RELEASE/spring-kafka-2.3.4.RELEASE-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.3.4.RELEASE/spring-kafka-2.3.4.RELEASE-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:620725dee7af2acb3e568e2c13fa6b76e36986635c5fcdeec057636a214bf0c0
+size 635

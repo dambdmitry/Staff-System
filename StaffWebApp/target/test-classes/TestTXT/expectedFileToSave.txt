@@ -1,3 +1,3 @@
-1 Яблоков Анатолий Анатольевич
-2 Сямжина Елена Алексеевна
-3 Михайлов Даниил Александрович
+version https://git-lfs.github.com/spec/v1
+oid sha256:590651c07c06dfca96dc716eeb482c45bf234c25168239b4f6a2a4edacf8d038
+size 164

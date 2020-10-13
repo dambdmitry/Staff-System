@@ -1,1 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><Staff><worker id="1"><id>1</id><lastName>Бирюков</lastName><name>Дмитрий</name><patronymic>Михайлович</patronymic></worker><worker id="2"><id>2</id><lastName>Строеньев</lastName><name>Степан</name><patronymic>Дмитриевич</patronymic></worker><worker id="3"><id>3</id><lastName>Глазов</lastName><name>Александр</name><patronymic>Андреевич</patronymic></worker></Staff>
+version https://git-lfs.github.com/spec/v1
+oid sha256:58e1d2920fb74da56e06ff9e9d9b8d87222d2298d84d000c40cc43587594be7f
+size 494

@@ -1,9 +1,3 @@
-DROP TABLE IF EXISTS worker;
-
-CREATE TABLE worker(
-	worker_id SERIAL,
-	worker_name varchar(20),
-	worker_patronymic varchar(20),
-	worker_lastname varchar(20),
-	PRIMARY KEY(worker_id)
-)
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7d11e9e7757a37212ddf3bc948f54a808d7ab7affc0486926aa8a3f5f8213c5
+size 2307

@@ -1,20 +1,3 @@
-package edu.prctice.staff;
-
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-
-@SpringBootApplication
-public class StaffApplication implements WebMvcConfigurer {
-
-    public static void main(String[] args) {
-        SpringApplication.run(StaffApplication.class, args);
-    }
-
-    @Override
-    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
-    }
-
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2c05b9e80c897924634c1fb8b5eee4922976c0df10c7b15676dc20dccfd66023
+size 692

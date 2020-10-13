@@ -1,13 +1,3 @@
-<component name="libraryTable">
-  <library name="Maven: org.apache.logging.log4j:log4j-api:2.12.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.12.1/log4j-api-2.12.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca80c7fbbdc30821210cabdc0c1b0c5cadd50b3f17a22da2a77facb9911f5151
+size 561

@@ -1,18 +1,3 @@
-package edu.practice.consumer.listener;
-
-import edu.practice.consumer.database.MessagesTable;
-import edu.practice.consumer.model.UserAction;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
-@Component
-public class ConsumerManagement {
-    @Autowired
-    private MessagesTable messagesTable;
-
-    public void addMessage(UserAction userAction){
-        messagesTable.addMessage(userAction.getLogin(),
-                userAction.getAction(),
-                userAction.getObject());
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2f990e04872079ee298991dbabaa7c0dd2810c863f584531df36aa6468a4a51
+size 552

@@ -1,19 +1,3 @@
-package edu.prctice.staff.mq;
-
-import edu.prctice.staff.models.UserAction;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.jms.support.converter.MappingJackson2MessageConverter;
-
-import java.util.Collections;
-
-@Configuration
-public class Converter {
-    @Bean
-    public MappingJackson2MessageConverter messageConverter(){
-        final MappingJackson2MessageConverter messageConverter = new MappingJackson2MessageConverter();
-        messageConverter.setTypeIdPropertyName("content-type");
-        messageConverter.setTypeIdMappings(Collections.singletonMap("action", UserAction.class));
-        return messageConverter;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:807550ecf972e51a71a7d3f964e97327911175e2a8c44fca68463144c4add04e
+size 722

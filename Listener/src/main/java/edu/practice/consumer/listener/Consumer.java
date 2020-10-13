@@ -1,19 +1,3 @@
-package edu.practice.consumer.listener;
-
-
-import edu.practice.consumer.model.UserAction;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jms.annotation.JmsListener;
-import org.springframework.stereotype.Component;
-
-@Component
-public class Consumer {
-    @Autowired
-    private ConsumerManagement consumerManagement;
-
-    @JmsListener(destination = "actions")
-    public void consume(UserAction userAction){
-        consumerManagement.addMessage(userAction);
-    }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:1d9ce2269f1be166ce4ea31103078cf6f6315f4d6628a89f47132d74f1c576b1
+size 509
